@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-04T10:59:04Z" name="Hackathon" finished-at="2022-01-04T11:01:25Z" duration-ms="141661">
+    <groups>
+    </groups>
+    <test started-at="2022-01-04T10:59:04Z" name="CarWash Smoke" finished-at="2022-01-04T10:59:51Z" duration-ms="47195">
+      <class name="baseClass.BaseUI">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:baseClass.BaseUI@6f44a157]" started-at="2022-01-04T10:59:04Z" name="invokeBrowser" finished-at="2022-01-04T10:59:22Z" duration-ms="17796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="reportinitialize(java.lang.String)[pri:0, instance:baseClass.BaseUI@6f44a157]" started-at="2022-01-04T10:59:22Z" name="reportinitialize" finished-at="2022-01-04T10:59:22Z" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smoke_Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinitialize -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:baseClass.BaseUI@6f44a157]" started-at="2022-01-04T10:59:49Z" name="closeBrowser" finished-at="2022-01-04T10:59:50Z" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:baseClass.BaseUI@6f44a157]" started-at="2022-01-04T10:59:50Z" name="tearDown" finished-at="2022-01-04T10:59:51Z" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- baseClass.BaseUI -->
+      <class name="testSuite.SmokeTest">
+        <test-method signature="smokeTesting()[pri:0, instance:testSuite.SmokeTest@6bc407fd]" started-at="2022-01-04T10:59:22Z" name="smokeTesting" finished-at="2022-01-04T10:59:49Z" duration-ms="27062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTesting -->
+      </class> <!-- testSuite.SmokeTest -->
+    </test> <!-- CarWash Smoke -->
+    <test started-at="2022-01-04T10:59:51Z" name="CarWash Regression" finished-at="2022-01-04T11:01:25Z" duration-ms="94368">
+      <class name="baseClass.BaseUI">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:baseClass.BaseUI@2421cc4]" started-at="2022-01-04T10:59:51Z" name="invokeBrowser" finished-at="2022-01-04T10:59:58Z" duration-ms="6727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="reportinitialize(java.lang.String)[pri:0, instance:baseClass.BaseUI@2421cc4]" started-at="2022-01-04T10:59:58Z" name="reportinitialize" finished-at="2022-01-04T10:59:58Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Regression_Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinitialize -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:baseClass.BaseUI@2421cc4]" started-at="2022-01-04T11:01:23Z" name="closeBrowser" finished-at="2022-01-04T11:01:25Z" duration-ms="1848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:baseClass.BaseUI@2421cc4]" started-at="2022-01-04T11:01:25Z" name="tearDown" finished-at="2022-01-04T11:01:25Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- baseClass.BaseUI -->
+      <class name="testSuite.RegressionTest">
+        <test-method signature="regressionTesting()[pri:0, instance:testSuite.RegressionTest@30c93896]" started-at="2022-01-04T10:59:58Z" name="regressionTesting" finished-at="2022-01-04T11:01:23Z" duration-ms="85527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTesting -->
+      </class> <!-- testSuite.RegressionTest -->
+    </test> <!-- CarWash Regression -->
+  </suite> <!-- Hackathon -->
+</testng-results>

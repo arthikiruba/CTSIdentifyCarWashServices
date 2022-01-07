@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name='Hackathon'>
+	<test name='CarWash Smoke'>
+	 <parameter name='suiteName' value='Smoke_Test'/>
+		<classes>
+			<class name="baseClass.BaseUI" />
+			<class name='testSuite.SmokeTest' />
+		</classes>
+	</test>
+	<test name='CarWash Regression'>
+	<parameter name='suiteName' value='Regression_Test'/>
+		<classes>
+			<class name="baseClass.BaseUI" />
+			<class name='testSuite.RegressionTest' />
+		</classes>
+	</test>
+</suite>
